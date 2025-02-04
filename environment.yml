@@ -12,6 +12,9 @@ dependencies:
     - scipy==1.0.0
     - shapely==1.6.4
     - scikit-learn==0.19.1
+    # pandas is not required for the course, but it is useful for data analysis
+    # it should install 1.1.5
+    - pandas
     - pip:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
